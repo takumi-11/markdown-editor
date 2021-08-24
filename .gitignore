@@ -1,0 +1,8 @@
+# Nuxt.js build / generate output
+ .nuxt
+#dist
+ 
+node_modules
+
+# Gatsby files
+.cache/
