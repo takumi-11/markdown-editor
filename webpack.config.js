@@ -20,6 +20,9 @@ module.exports = {
         publicPath: 'dist/',
     },
     devServer: {
+        static: {
+            directory: path.join(__dirname, 'dist'),
+        },
         hot: true,
         open: true,
     }
